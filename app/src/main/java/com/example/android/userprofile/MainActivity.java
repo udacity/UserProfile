@@ -13,6 +13,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        ImageView picture = (ImageView) findViewById(R.id.profile_picture);
+        picture.setImageResource(R.drawable.picture);
+
         TextView name = (TextView) findViewById(R.id.name);
         name.setText("Vicky");
 
