@@ -19,11 +19,6 @@ public class MainActivity extends AppCompatActivity {
         TextView name = (TextView) findViewById(R.id.name);
         name.setText("Vicky");
 
-        /** Set your profile name size*/
-        name.setTextSize(30);
-        /** Set your profile name color*/
-        name.setTextColor(Color.BLUE);
-
         TextView birthday = (TextView) findViewById(R.id.birthday);
         birthday.setText("9/24/1996");
 
